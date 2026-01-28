@@ -1,0 +1,20 @@
+public class test {
+
+    static final int REPS = 10000000;
+    static final int N = 60;
+
+    public static void test(int[][] array) {
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                array[i][j] = 0;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[][] array = new int[N][N];
+        for (int reps = 0; reps < REPS; reps++) {
+            test(array);
+        }
+    }
+}
