@@ -2,29 +2,32 @@
 #define OPTIMIZE __attribute__((optimize("O3")))
 
 const int reps = 100000000;
-int f() {
+int f()
+{
    return 512;
 }
 
 int value;
 
-void OPTIMIZE test2(int N) {
-  int aux = value;
-  for (int i=0; i < N; i++) {
-     aux += f();
-  }
-  value = aux;
+int OPTIMIZE test2(int N)
+{
+   int aux = value;
+   for (int i = 0; i < N; i++)
+   {
+      aux += f();
+   }
+   value = aux;
+   return value;
 }
 
-int main(int argc, char **argv) {
-
+int main(int argc, char **argv)
+{
    int z;
    int N = 50;
-
    value = 0;
-
-   printf("\"Global variables\"");
-   for (z=0; z<reps; z++){
-   test2(N);
+   for (z = 0; z < reps; z++)
+   {
+      test2(N);
    }
+   return 0;
 }

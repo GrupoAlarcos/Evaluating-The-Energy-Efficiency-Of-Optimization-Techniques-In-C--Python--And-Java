@@ -1,6 +1,8 @@
+package Test2;
+
 public class test {
 
-    static final long REPS = 10000000000L;
+    public static final long REPS = 10000000000L;
 
     public static int functb(int x) {
         return x * 2;
@@ -10,8 +12,9 @@ public class test {
         return functb(x - 1) - 8;
     }
 
-    public static void test(int a) {
+    public static int test(int a) {
         int b = funct(a);
+        return b;
     }
 
     public static void main(String[] args) {

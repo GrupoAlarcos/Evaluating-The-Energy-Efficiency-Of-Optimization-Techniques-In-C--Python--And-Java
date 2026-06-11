@@ -4,6 +4,7 @@ N = 100
 def test(array):
     for i in range(N - 1, -1, -1):
         array[i] = i
+    return array
 
 if __name__ == "__main__":
     array = [0] * N

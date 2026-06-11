@@ -1,6 +1,8 @@
+package Test2_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
+    public static final int REPS = 100000000;
 
     public static boolean test(int i, int maxN, int minN) {
         return (i - minN) <= (maxN - minN);

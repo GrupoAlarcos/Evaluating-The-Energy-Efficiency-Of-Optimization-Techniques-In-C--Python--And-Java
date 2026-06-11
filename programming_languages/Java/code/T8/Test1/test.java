@@ -1,5 +1,7 @@
+package Test1;
+
 public class test {
-    static final long REPS = 10000000000L;
+    public static final long REPS = 10000000000L;
 
     public static int dataToValue(String data) {
         if (data.equals("AAAAAA")) return 1;
@@ -25,8 +27,8 @@ public class test {
         else return -1;
     }
 
-    public static void test() {
-        dataToValue("TTTTTT");
+    public static int test() {
+        return dataToValue("TTTTTT");
     }
 
     public static void main(String[] args) {

@@ -1,17 +1,23 @@
+package Test2;
+
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 100;
+    public static final int REPS = 100000000;
+    public static final int N = 100;
 
     public static int search(int[] list, int want) {
+        if (N == 0) return -1;
+        int last = list[N - 1];
+        list[N - 1] = want;   
         int i = 0;
-        while (i < N && list[i] != want) {
+        while (list[i] != want) {
             i++;
-        }
-        if (i == N) {
-            return -1;
-        }
-        return i;
+        }   
+        list[N - 1] = last;     
+        if (i < (N - 1) || last == want) {
+            return i;
+        }       
+        return -1;
     }
 
     public static int test(int[] list) {

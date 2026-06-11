@@ -1,9 +1,11 @@
+package Test1;
+
 public class test {
 
-    static final long REPS = 10000000000L;
-    static final int N = 20;
+    public static final long REPS = 10000000000L;
+    public static final int N = 20;
 
-    static class Class {
+    public static class Class {
         private int data = 0;
 
         public void setData(int data) {

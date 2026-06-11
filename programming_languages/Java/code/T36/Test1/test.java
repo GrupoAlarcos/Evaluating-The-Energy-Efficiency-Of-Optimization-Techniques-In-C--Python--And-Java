@@ -1,9 +1,11 @@
+package Test1;
+
 public class test {
 
-    static final long REPS = 10000000000L;
-    static final int N = 50;
+    public static final long REPS = 10000000000L;
+    public static final int N = 50;
 
-    public static void test(int[] array, int val) {
+    public static int test(int[] array, int val) {
         boolean flag = true;
         int i = 0;
         while (i < N && flag) {
@@ -12,6 +14,7 @@ public class test {
             }
             i++;
         }
+        return i;
     }
 
     public static void main(String[] args) {

@@ -8,6 +8,7 @@ def test(array):
     for i in range(N):
         t += array[i]
     SUM = t
+    return SUM
 
 if __name__ == "__main__":
     array = [i for i in range(N)]

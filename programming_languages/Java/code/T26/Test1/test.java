@@ -1,7 +1,9 @@
+package Test1;
+
 public class test {
 
-    static final long REPS = 10000000000L;
-    static final int N = 100;
+    public static final long REPS = 10000000000L;
+    public static final int N = 100;
 
     public static void test(int[] a, int[] b, int x) {
         for (int i = 0; i < N; i++) {

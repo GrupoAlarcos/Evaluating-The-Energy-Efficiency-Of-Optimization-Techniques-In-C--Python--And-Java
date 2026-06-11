@@ -5,21 +5,22 @@ const int reps = 100000000;
 
 int global;
 
-void OPTIMIZE test1(){
+void OPTIMIZE test1()
+{
   int i;
-  i = 1;          // dead store
-  global = 1;     // dead store
+  i = 1;
+  global = 1;
   global = 2;
   return;
-  global = 3;     // unreachable
+  global = 3;
 }
 
-int main(int argc, char **argv) {
-
-   int z;	
-   printf("\"Dead code elimination\"");
-   for (z=0; z<reps; z++){
-   test1();
-   }
-
+int main(int argc, char **argv)
+{
+  int z;
+  for (z = 0; z < reps; z++)
+  {
+    test1();
+  }
+  return 0;
 }

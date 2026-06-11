@@ -1,9 +1,11 @@
+package Test2_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 20;
+    public static final int REPS = 100000000;
+    public static final int N = 20;
 
-    static class Class {
+    public static class Class {
         private int data = 0;
 
         public void setData(int data) {
@@ -31,5 +33,5 @@ public class test {
         for (int reps = 0; reps < REPS; reps++) {
             test(c, array);
         }
-    }
+    }  
 }

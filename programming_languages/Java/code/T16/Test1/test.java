@@ -1,20 +1,22 @@
+package Test1;
+
 public class test {
 
-    static final long REPS = 10000000000L;
+    public static final long REPS = 10000000000L;
 
-    public static double divide(double i, double j) {
+    public static long divide(long i, int j) {
         return i / j;
     }
 
-    public static void test(double i, double j) {
-        divide(i, j);
+    public static long test(long i, int j) {
+        return divide(i, j);
     }
 
     public static void main(String[] args) {
-        double dividend = 100_000_000;
+        long dividend = 100000000;
         int exponent = 10;
-        double divisor = Math.pow(2, exponent);
-        for (long reps = 0L; reps < REPS; reps++) {
+        int divisor = 1 << exponent;
+        for (long reps = 0L; reps < REPS ; reps++) {
             test(dividend, divisor);
         }
     }

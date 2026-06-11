@@ -6,6 +6,7 @@ def test(x):
     aux = x + sqrt(16384)
     i = aux + 1
     j = aux
+    return i
 
 if __name__ == "__main__":
     x = 100

@@ -1,19 +1,21 @@
+package Test2_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
+    public static final int REPS = 100000000;
 
-    public static long multiply(long i, int j) {
-        return i << j;
+    public static long multiply(int i, int j) {
+        return (long) i << j;
     }
 
-    public static void test(long i, int j) {
-        multiply(i, j);
+    public static long test(int i, int j) {
+        return multiply(i, j);
     }
 
     public static void main(String[] args) {
-        long factor1 = 100000000L;
+        int factor1 = 100000000;
         int factor2 = 10;
-        for (int reps = 0; reps < REPS; reps++) {
+        for (long reps = 0L; reps < REPS; reps++) {
             test(factor1, factor2);
         }
     }

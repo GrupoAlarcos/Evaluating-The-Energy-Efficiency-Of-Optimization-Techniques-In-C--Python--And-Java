@@ -1,17 +1,20 @@
+package Test1;
+
 public class test {
 
-    static final long REPS = 10000000000L;
-    static final int N = 50;
+    public static final long REPS = 10000000000L;
+    public static final int N = 50;
     static int VALUE = 0;
 
     public static int f() {
         return 512;
     }
 
-    public static void test() {
+    public static int test() {
         for (int i = 0; i < N; i++) {
             VALUE += f();
         }
+        return VALUE;
     }
 
     public static void main(String[] args) {

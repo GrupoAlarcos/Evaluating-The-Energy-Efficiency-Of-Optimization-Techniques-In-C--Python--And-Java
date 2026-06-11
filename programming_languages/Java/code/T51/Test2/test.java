@@ -1,10 +1,13 @@
+package Test2;
+
+import java.util.Arrays;
 import java.util.Random;
 
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 50;
-    static final int THRESHOLD = 10;
+    public static final int REPS = 100000000;
+    public static final int N = 50;
+    public static final int THRESHOLD = 10;
 
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
@@ -54,13 +57,14 @@ public class test {
     }
 
     public static void main(String[] args) {
-        Random rand = new Random();
-        int[] array = new int[N];
+        Random random = new Random();
+        int[] masterArray = new int[N];
         for (int i = 0; i < N; i++) {
-            array[i] = rand.nextInt(N);
+            masterArray[i] = random.nextInt(N); 
         }
-        for (int reps = 0; reps < REPS; reps++) {
-            test(array);
+        for (int i = 0; i < REPS; i++) {
+            int[] currentArray = Arrays.copyOf(masterArray, masterArray.length);
+            test(currentArray);
         }
     }
 }

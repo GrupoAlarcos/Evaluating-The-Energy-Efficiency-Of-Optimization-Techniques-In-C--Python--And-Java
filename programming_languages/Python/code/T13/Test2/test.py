@@ -11,6 +11,7 @@ def test():
     for i in range(N):
         aux += f()
     VALUE = aux
+    return VALUE
 
 if __name__ == "__main__":
     for _ in range(REPS):

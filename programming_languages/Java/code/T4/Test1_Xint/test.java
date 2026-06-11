@@ -1,9 +1,11 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 20;
+    public static final int REPS = 100000000;
+    public static final int N = 20;
 
-    static class Class {
+    public static class Class {
         private int data = 0;
 
         public void setData(int data) {

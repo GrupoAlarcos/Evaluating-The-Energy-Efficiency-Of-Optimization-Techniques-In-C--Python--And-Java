@@ -1,7 +1,9 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 10000000;
-    static final int N = 50;
+    public static final int REPS = 10000000;
+    public static final int N = 50;
 
     public static int power(int val) {
         return val * val;

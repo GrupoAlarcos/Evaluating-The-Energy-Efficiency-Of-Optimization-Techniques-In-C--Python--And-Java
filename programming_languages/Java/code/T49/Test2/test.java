@@ -1,7 +1,9 @@
+package Test2;
+
 public class test {
 
-    static final long REPS = 10000000000L;
-    static final int N = 50;
+    public static final long REPS = 10000000000L;
+    public static final int N = 50;
 
     public static int test(int[] array, int val) {
         int pos = -1;

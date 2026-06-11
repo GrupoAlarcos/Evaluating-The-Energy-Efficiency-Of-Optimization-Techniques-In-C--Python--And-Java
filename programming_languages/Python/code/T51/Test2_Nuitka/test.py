@@ -36,6 +36,7 @@ def test(array):
     quicksort(array, 0, N-1)
 
 if __name__ == "__main__":
-    array = [random.randint(0, N - 1) for _ in range(N)]
+    master_array = [random.randint(0, N - 1) for _ in range(N)]
     for _ in range(REPS):
-        test(array)
+        current_array = master_array[:]     
+        test(current_array)

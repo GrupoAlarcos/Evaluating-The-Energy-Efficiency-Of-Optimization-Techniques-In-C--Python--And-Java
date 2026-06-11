@@ -15,7 +15,7 @@ def test(c, array):
     for i in range(N):
         if c.get_data() == 1:
             array[i] = 0
-
+    
 if __name__ == "__main__":
     array = [0] * N
     c = Class()

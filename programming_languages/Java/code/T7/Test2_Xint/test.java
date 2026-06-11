@@ -1,10 +1,13 @@
-public class test {
-    static final int REPS = 100000000;
+package Test2_Xint;
 
-    public static void test(double x) {
+public class test {
+    public static final int REPS = 100000000;
+
+    public static double test(double x) {
         double aux = x + Math.sqrt(16384);
         double i = aux + 1;
         double j = aux;
+        return i;
     }
 
     public static void main(String[] args) {

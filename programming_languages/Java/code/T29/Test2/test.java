@@ -1,6 +1,8 @@
+package Test2;
+
 public class test {
 
-    static final long REPS = 10000000000L;
+    public static final long REPS = 10000000000L;
 
     public static boolean test(int i, int maxN, int minN) {
         return (i - minN) <= (maxN - minN);

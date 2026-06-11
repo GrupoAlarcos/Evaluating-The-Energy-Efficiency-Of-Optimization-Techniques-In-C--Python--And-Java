@@ -1,10 +1,13 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
+    public static final int REPS = 100000000;
 
-    public static void test(boolean a, boolean b) {
+    public static boolean test(boolean a, boolean b) {
         boolean c = b || a;
         boolean d = a && b;
+        return c;
     }
 
     public static void main(String[] args) {

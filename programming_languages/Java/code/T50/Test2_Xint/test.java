@@ -1,9 +1,11 @@
+package Test2_Xint;
+
 public class test {
 
-    static final int REPS = 10000000;
-    static final int N = 50;
+    public static final int REPS = 10000000;
+    public static final int N = 50;
 
-    public static void test() {
+    public static int[][] test() {
         int[][] A = new int[N][N];
         for (int i = 1; i < N; i++) {
             int j = 0;
@@ -12,6 +14,7 @@ public class test {
                 j++;
             }
         }
+        return A;
     }
 
     public static void main(String[] args) {

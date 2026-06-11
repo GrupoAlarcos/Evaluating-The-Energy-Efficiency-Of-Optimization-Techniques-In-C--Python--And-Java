@@ -1,8 +1,10 @@
+package Test2;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class test {
-    static final long REPS = 10000000000L;
+    public static final long REPS = 10000000000L;
     static final Map<String, Integer> mapData = new HashMap<>();
 
     static {
@@ -32,8 +34,8 @@ public class test {
         return mapData.getOrDefault(data, -1);
     }
 
-    public static void test() {
-        dataToValue("TTTTTT");
+    public static int test() {
+        return dataToValue("TTTTTT");
     }
 
     public static void main(String[] args) {

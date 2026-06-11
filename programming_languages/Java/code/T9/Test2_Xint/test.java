@@ -1,11 +1,13 @@
+package Test2_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
+    public static final int REPS = 100000000;
     static int GLOBAL = 0;
 
-    public static void test() {
+    public static int test() {
         GLOBAL = 2;
-        return;
+        return GLOBAL;
     }
 
     public static void main(String[] args) {

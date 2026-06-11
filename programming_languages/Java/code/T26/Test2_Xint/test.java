@@ -1,7 +1,9 @@
+package Test2_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 100;
+    public static final int REPS = 100000000;
+    public static final int N = 100;
 
     public static void test(int[] a, int[] b, int x) {
         if (x == 1) {

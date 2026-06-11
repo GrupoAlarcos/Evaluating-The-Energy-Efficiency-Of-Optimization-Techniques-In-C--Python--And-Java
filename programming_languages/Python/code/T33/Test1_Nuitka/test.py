@@ -9,6 +9,7 @@ def funct(x):
 
 def test(a):
     b = funct(a)
+    return b
 
 if __name__ == "__main__":
     for _ in range(REPS):

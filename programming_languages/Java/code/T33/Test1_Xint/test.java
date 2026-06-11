@@ -1,6 +1,8 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
+    public static final int REPS = 100000000;
 
     public static int functb(int x) {
         return x * 2;
@@ -11,8 +13,9 @@ public class test {
         return a;
     }
 
-    public static void test(int a) {
+    public static int test(int a) {
         int b = funct(a);
+        return b;
     }
 
     public static void main(String[] args) {

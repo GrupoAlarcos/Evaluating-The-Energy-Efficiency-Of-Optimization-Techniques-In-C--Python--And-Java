@@ -8,7 +8,8 @@ def test():
         while j < i:
             A[i][j] = 3
             j += 1
+    return A
 
 if __name__ == "__main__":
-    for i in range(REPS):
+    for _ in range(REPS):
         test()

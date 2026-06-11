@@ -1,9 +1,12 @@
-public class test {
-    static final long REPS = 10000000000L;
+package Test1;
 
-    public static void test(double x) {
+public class test {
+    public static final long REPS = 10000000000L;
+
+    public static double test(double x) {
         double i = x + Math.sqrt(16384) + 1;
         double j = x + Math.sqrt(16384);
+        return i;
     }
 
     public static void main(String[] args) {

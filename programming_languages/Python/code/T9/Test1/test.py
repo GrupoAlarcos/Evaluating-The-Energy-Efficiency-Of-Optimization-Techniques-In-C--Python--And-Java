@@ -6,7 +6,7 @@ def test():
     i = 1
     GLOBAL = 1
     GLOBAL = 2
-    return
+    return GLOBAL
     GLOBAL = 3
 
 if __name__ == "__main__":

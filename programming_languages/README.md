@@ -1,6 +1,13 @@
 ### programming_languages
-This folder contains one excel with the analysis of the 26 software optimization techniques.
+This folder contains the complete experimental setup and results for the analysis of the 26 software optimization techniques evaluated in this study. 
 
-Each programming language contains two folders:
-   - `code`: Code for the 26 optimization techniques.  
-   - `results`: Results obtained from applying these techniques, along with the impact of other compiler choices.
+The execution workflow is automated through a shell script (`.sh`), which runs all test cases for each programming The folder includes the following files:
+- A shell script (`.sh`) used to automate the execution of all experiments.
+- Log files generated during execution, including:
+  - `info`, which provides details about the executed tests.
+  - `success`, which records successful executions of test cases.
+  - `error`, which captures failed executions and runtime issues.
+
+Each programming language directory is then structured as follows:
+- `code`: Contains the source code implementing the 26 optimization techniques.
+- `results`: Includes the experimental results obtained from executing the techniques.

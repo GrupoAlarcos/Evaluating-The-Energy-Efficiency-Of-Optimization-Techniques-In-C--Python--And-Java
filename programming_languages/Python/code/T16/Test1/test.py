@@ -1,10 +1,10 @@
 REPS = 100000000
 
 def divide(i, j):
-    return i / j
+    return i // j
 
 def test(i, j):
-    divide(i, j)
+    return divide(i, j)
 
 if __name__ == "__main__":
     dividend = 100000000

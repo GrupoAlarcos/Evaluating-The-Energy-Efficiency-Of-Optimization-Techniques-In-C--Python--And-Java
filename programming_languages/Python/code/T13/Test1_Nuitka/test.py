@@ -9,6 +9,7 @@ def test():
     global VALUE
     for i in range(N):
         VALUE += f()
+    return VALUE
 
 if __name__ == "__main__":
     for _ in range(REPS):

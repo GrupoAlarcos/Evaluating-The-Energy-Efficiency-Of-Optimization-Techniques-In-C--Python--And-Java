@@ -1,6 +1,8 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
+    public static final int REPS = 100000000;
 
     static class MyException extends Exception {
         public MyException() {
@@ -10,16 +12,17 @@ public class test {
 
     public static int test() {
         int num = 100;
+        int result = 0;
         for (int i = 0; i < 1; i++) {
             try {
                 if (num == 100) {
                     throw new MyException();
                 }
             } catch (MyException e) {
-
+                result = 1;
             }
         }
-        return 0;
+        return result;
     }
 
     public static void main(String[] args) {

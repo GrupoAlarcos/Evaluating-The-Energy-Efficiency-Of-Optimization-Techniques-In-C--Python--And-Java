@@ -5,9 +5,10 @@ def test():
     A = [[0 for _ in range(N)] for _ in range(N)]
     for i in range(N):
         for j in range(N):
-            if i < j:
+            if j < i:
                 A[i][j] = 3
+    return A
 
 if __name__ == "__main__":
-    for i in range(REPS):
+    for _ in range(REPS):
         test()

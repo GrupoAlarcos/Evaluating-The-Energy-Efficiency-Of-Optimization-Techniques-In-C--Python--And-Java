@@ -1,10 +1,13 @@
+package Test1;
+
 public class test {
 
-    static final long REPS = 10000000000L;
+    public static final long REPS = 10000000000L;
 
-    public static void test(boolean a, boolean b) {
+    public static boolean test(boolean a, boolean b) {
         boolean c = b || a;
         boolean d = a && b;
+        return c;
     }
 
     public static void main(String[] args) {

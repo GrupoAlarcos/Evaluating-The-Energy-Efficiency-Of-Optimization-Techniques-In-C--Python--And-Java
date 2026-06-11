@@ -6,7 +6,11 @@ def test(array):
         for j in range(N):
             array[i][j] = 0
 
-if __name__ == "__main__":
+def main():
     array = [[0 for _ in range(N)] for _ in range(N)]
     for _ in range(REPS):
         test(array)
+    return array
+
+if __name__ == "__main__":
+    main()

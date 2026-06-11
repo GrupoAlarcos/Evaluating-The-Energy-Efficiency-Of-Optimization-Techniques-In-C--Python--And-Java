@@ -8,6 +8,7 @@ def test(array, val):
         if array[i] >= val:
             flag = False
         i += 1
+    return i
 
 if __name__ == "__main__":
     array = [25 if i == N // 2 else 0 for i in range(N)]

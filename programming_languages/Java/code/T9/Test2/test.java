@@ -1,11 +1,13 @@
+package Test2;
+
 public class test {
 
-    static final long REPS = 10000000000L;
+    public static final long REPS = 10000000000L;
     static int GLOBAL = 0;
 
-    public static void test() {
+    public static int test() {
         GLOBAL = 2;
-        return;
+        return GLOBAL;
     }
 
     public static void main(String[] args) {

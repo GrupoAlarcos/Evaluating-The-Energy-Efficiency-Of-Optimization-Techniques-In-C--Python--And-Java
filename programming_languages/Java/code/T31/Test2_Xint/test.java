@@ -1,3 +1,5 @@
+package Test2_Xint;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -5,9 +7,9 @@ import java.io.IOException;
 
 public class test {
 
-    static final int REPS = 1000000;
-    static final int N = 50;
-    static final int NBUF = 5;
+    public static final int REPS = 1000000;
+    public static final int N = 50;
+    public static final int NBUF = 5;
 
     public static void test(String[] array, String[] buf, BufferedWriter writer) throws IOException {
         int i = 0;
@@ -45,9 +47,6 @@ public class test {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
-        if (file.exists()) {
-            file.delete();
         }
     }
 }

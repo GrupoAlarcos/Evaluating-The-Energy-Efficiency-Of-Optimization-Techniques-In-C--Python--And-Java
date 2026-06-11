@@ -1,15 +1,18 @@
+package Test2;
+
 public class test {
 
-    static final long REPS = 10000000000L;
-    static final int N = 10;
+    public static final long REPS = 10000000000L;
+    public static final int N = 10;
     static long SUM = 0;
 
-    public static void test(int[] array) {
+    public static long test(int[] array) {
         long t = 0;
         for (int i = 0; i < N; i++) {
             t += array[i];
         }
         SUM = t;
+        return SUM;
     }
 
     public static void main(String[] args) {

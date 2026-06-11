@@ -1,17 +1,20 @@
+package Test1;
+
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 50;
+    public static final int REPS = 100000000;
+    public static final int N = 50;
 
-    public static void test() {
+    public static int[][] test() {
         int[][] A = new int[N][N];
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if (i < j) {
+                if (j < i) {
                     A[i][j] = 3;
                 }
             }
         }
+        return A;
     }
 
     public static void main(String[] args) {

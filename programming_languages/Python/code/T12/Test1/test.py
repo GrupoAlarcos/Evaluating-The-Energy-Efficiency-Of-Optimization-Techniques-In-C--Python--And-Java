@@ -7,7 +7,7 @@ def sub(x, y):
     return add(x, -y)
 
 def test(x, y):
-    sub(x, y) 
+    return sub(x, y)
 
 if __name__ == "__main__":
     minuend = 10

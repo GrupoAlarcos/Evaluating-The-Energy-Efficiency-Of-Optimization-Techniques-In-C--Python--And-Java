@@ -45,7 +45,7 @@ def data_to_value(data):
         return -1
 
 def test():
-    data_to_value("TTTTTT")
+    return data_to_value("TTTTTT")
 
 if __name__ == "__main__":
     for _ in range(REPS):

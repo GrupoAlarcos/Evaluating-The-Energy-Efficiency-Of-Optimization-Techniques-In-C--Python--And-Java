@@ -1,7 +1,9 @@
+package Test2_Xint;
+
 public class test {
 
-    static final int REPS = 10000000;
-    static final int N = 50;
+    public static final int REPS = 10000000;
+    public static final int N = 50;
 
     public static void power(int[] array) {
         for (int i = 0; i < N; i++) {

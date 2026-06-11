@@ -1,6 +1,8 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
+    public static final int REPS = 100000000;
 
     public static int add(int x, int y) {
         return x + y;
@@ -10,8 +12,8 @@ public class test {
         return add(x, -y);
     }
 
-    public static void test(int x, int y) {
-        sub(x, y);
+    public static int test(int x, int y) {
+        return sub(x, y);
     }
 
     public static void main(String[] args) {

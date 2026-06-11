@@ -1,16 +1,17 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 50;
+    public static final int REPS = 100000000;
+    public static final int N = 50;
 
     public static int test(int[] array, int val) {
-        int pos = -1;
         for (int i = 0; i < N; i++) {
             if (array[i] == val) {
-                pos = i;
+                return i;
             }
         }
-        return pos;
+        return -1;
     }
 
     public static void main(String[] args) {

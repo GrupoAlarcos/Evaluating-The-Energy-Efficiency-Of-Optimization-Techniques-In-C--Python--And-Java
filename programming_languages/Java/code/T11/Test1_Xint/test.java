@@ -1,13 +1,17 @@
+package Test1_Xint;
+
 public class test {
 
-    static final int REPS = 100000000;
-    static final int N = 10;
+    public static final int REPS = 100000000;
+    public static final int N = 10;
     static long SUM = 0;
 
-    public static void test(int[] array) {
+    public static long test(int[] array) {
+        SUM = 0;
         for (int i = 0; i < N; i++) {
             SUM += array[i];
         }
+        return SUM;
     }
 
     public static void main(String[] args) {
@@ -20,4 +24,3 @@ public class test {
         }
     }
 }
-

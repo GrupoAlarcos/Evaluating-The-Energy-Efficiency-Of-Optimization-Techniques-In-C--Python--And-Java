@@ -22,4 +22,4 @@ if __name__ == "__main__":
     c = Class()
     c.set_data(1)
     for _ in range(REPS):
-        test(c, array)
+        test(c, array) 

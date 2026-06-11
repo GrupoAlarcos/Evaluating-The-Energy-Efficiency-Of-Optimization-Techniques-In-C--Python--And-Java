@@ -1,5 +1,3 @@
-import os
-
 REPS = 100000000
 N = 50
 NBUF = 5
@@ -22,4 +20,3 @@ if __name__ == "__main__":
     with open("test.txt", "w") as file:     
         for _ in range(REPS):
             test(array, buf, file)
-    os.remove("test.txt")
