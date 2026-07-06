@@ -56,7 +56,7 @@ This infrastructure is integrated within the **FEETINGS experimental ecosystem**
 
 Before running any measurements, the `execute_tests.sh` script is executed to ensure that both versions of each benchmark (standard and optimized) are functionally equivalent. Only benchmarks that produce identical return values across all test cases are considered valid for measurement.
 
-The notion of equivalence is defined exclusively in terms of the **return value of the main computation function**. Although some implementations may internally use global variables, arrays, or mutable state, these are not considered for validation.
+The notion of equivalence is defined exclusively in terms of the **return value of the main computation function**, even if internal mutable state (e.g., arrays or global variables) is used during execution.
 
 ### What the tests check
 
@@ -74,6 +74,15 @@ The `execute_tests.sh` script automatically:
 2. Runs each benchmark multiple times to ensure deterministic behavior.
 3. Compares repeated executions of the same implementation.
 4. Compares standard and optimized versions based on return values.
+
+### Summary of validation criteria
+
+| Aspect                                    | Description                                                     |
+| ----------------------------------------- | --------------------------------------------------------------- |
+| Output compared                           | Return value of the main computation function                   |
+| Standard vs optimized                     | Must produce identical return values for all test cases         |
+| Internal state (globals, arrays, objects) | Not considered for validation                                   |
+| Validity condition                        | All comparisons must pass exactly                               |
 
 A benchmark is considered valid only if all checks succeed exactly.
 
