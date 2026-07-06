@@ -1,0 +1,156 @@
+===== Java/code/T10 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T10.java
+java -cp . test_T10
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T11 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T11.java
+java -cp . test_T11
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T12 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T12.java
+java -cp . test_T12
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T13 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T13.java
+java -cp . test_T13
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T16 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T16.java
+java -cp . test_T16
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T17 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T17.java
+java -cp . test_T17
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T19 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T19.java
+java -cp . test_T19
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T20 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T20.java
+java -cp . test_T20
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T25 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T25.java
+java -cp . test_T25
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T26 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T26.java
+java -cp . test_T26
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T28 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T28.java
+java -cp . test_T28
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T29 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T29.java
+java -cp . test_T29
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T31 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T31.java
+java -cp . test_T31
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T32 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T32.java
+java -cp . test_T32
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T33 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T33.java
+java -cp . test_T33
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T36 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T36.java
+java -cp . test_T36
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T4 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T4.java
+java -cp . test_T4
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T40 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T40.java
+java -cp . test_T40
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T44 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T44.java
+java -cp . test_T44
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T49 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T49.java
+java -cp . test_T49
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T5 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T5.java
+java -cp . test_T5
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T50 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T50.java
+java -cp . test_T50
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T51 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T51.java
+java -cp . test_T51
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T7 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T7.java
+java -cp . test_T7
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T8 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T8.java
+java -cp . test_T8
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+
+===== Java/code/T9 =====
+javac Test1/test.java Test1_Xint/test.java Test2/test.java Test2_Xint/test.java test_T9.java
+java -cp . test_T9
+rm -f Test1/*.class Test2/*.class Test1_Xint/*.class Test2_Xint/*.class *.class
+Exit code: 0
+

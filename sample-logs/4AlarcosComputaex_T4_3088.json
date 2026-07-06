@@ -1,0 +1,32 @@
+{
+    "//": "informacion del proyecto:",
+    "project": "AlarcosComputaex_T4",
+    "versions": [
+        "T4_Test1_Test",
+        "T4_Test1_Nuitka_Test",
+        "T4_Test2_Test",
+        "T4_Test2_Nuitka_Test"
+    ],
+    "testcases": [
+        "Test"
+    ],
+    "measurements": "30",
+    "executions": "1",
+    "compile": "false",
+    "result": "false",
+    "config_v": "true",
+    "end_v": "true",
+    "config_tc": "false",
+    "end_tc": "false",
+    "config_m": "true",
+    "end_m": "true",
+    "allMeasurements": "true",
+    "firstValidValue": "1064.0",
+    "lastValidValue": "1588.0",
+    "time": "true",
+    "hdd": "true",
+    "graphicsCard": "true",
+    "process": "true",
+    "monitor": "false",
+    "dut": "true"
+}

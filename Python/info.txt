@@ -1,0 +1,408 @@
+===== Python/code/T10 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T10
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T10.py ..                                                           [100%]
+
+============================== 2 passed in 0.04s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T11 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T11
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T11.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T12 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T12
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T12.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T13 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T13
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T13.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T16 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T16
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T16.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T17 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T17
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T17.py ..                                                           [100%]
+
+============================== warnings summary ===============================
+..\..\..\..\..\..\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\cacheprovider.py:475
+  C:\Users\ALARCOS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\cacheprovider.py:475: PytestCacheWarning: could not create cache path C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T17\.pytest_cache\v\cache\nodeids: [WinError 5] Acceso denegado: 'C:\\Users\\ALARCOS\\Desktop\\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\\programming_languages\\Python\\code\\T17\\pytest-cache-files-rnx034m4' -> 'C:\\Users\\ALARCOS\\Desktop\\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\\programming_languages\\Python\\code\\T17\\.pytest_cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 2 passed, 1 warning in 0.03s =========================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T19 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T19
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T19.py ..                                                           [100%]
+
+============================== 2 passed in 0.04s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T20 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T20
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T20.py ..                                                           [100%]
+
+============================== warnings summary ===============================
+..\..\..\..\..\..\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\cacheprovider.py:475
+  C:\Users\ALARCOS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\cacheprovider.py:475: PytestCacheWarning: could not create cache path C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T20\.pytest_cache\v\cache\nodeids: [WinError 5] Acceso denegado: 'C:\\Users\\ALARCOS\\Desktop\\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\\programming_languages\\Python\\code\\T20\\pytest-cache-files-rgab08ui' -> 'C:\\Users\\ALARCOS\\Desktop\\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\\programming_languages\\Python\\code\\T20\\.pytest_cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 2 passed, 1 warning in 0.03s =========================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T25 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T25
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T25.py ..                                                           [100%]
+
+============================== warnings summary ===============================
+..\..\..\..\..\..\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\cacheprovider.py:475
+  C:\Users\ALARCOS\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\_pytest\cacheprovider.py:475: PytestCacheWarning: could not create cache path C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T25\.pytest_cache\v\cache\nodeids: [WinError 5] Acceso denegado: 'C:\\Users\\ALARCOS\\Desktop\\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\\programming_languages\\Python\\code\\T25\\pytest-cache-files-zo48jswt' -> 'C:\\Users\\ALARCOS\\Desktop\\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\\programming_languages\\Python\\code\\T25\\.pytest_cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 2 passed, 1 warning in 0.05s =========================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T26 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T26
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T26.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T28 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T28
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T28.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T29 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T29
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T29.py ..                                                           [100%]
+
+============================== 2 passed in 0.04s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T31 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T31
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T31.py ..                                                           [100%]
+
+============================== 2 passed in 0.04s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T32 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T32
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T32.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T33 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T33
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T33.py ..                                                           [100%]
+
+============================== 2 passed in 0.05s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T36 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T36
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T36.py ..                                                           [100%]
+
+============================== 2 passed in 0.05s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T4 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T4
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T4.py ..                                                            [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T40 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T40
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T40.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T44 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T44
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T44.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T49 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T49
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T49.py ..                                                           [100%]
+
+============================== 2 passed in 0.04s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T5 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T5
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T5.py ..                                                            [100%]
+
+============================= 2 passed in 51.57s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T50 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T50
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T50.py ..                                                           [100%]
+
+============================== 2 passed in 0.03s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T51 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T51
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T51.py ..                                                           [100%]
+
+============================== 2 passed in 0.06s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T7 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T7
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T7.py ..                                                            [100%]
+
+============================== 2 passed in 0.04s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T8 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T8
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T8.py ..                                                            [100%]
+
+============================== 2 passed in 0.04s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
+===== Python/code/T9 =====
+python3 -m pytest
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.1, pluggy-1.6.0
+benchmark: 5.1.0 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: C:\Users\ALARCOS\Desktop\Evaluating-The-Energy-Efficiency-Of-Optimization-Techniques-In-C--Python--And-Java\programming_languages\Python\code\T9
+plugins: anyio-4.9.0, aspectlib-2.0.0, langsmith-0.8.16, benchmark-5.1.0
+collected 2 items
+
+test_T9.py ..                                                            [100%]
+
+============================== 2 passed in 0.06s ==============================
+rm -rf .pytest_cache .benchmarks __pycache__
+Exit code: 0
+
