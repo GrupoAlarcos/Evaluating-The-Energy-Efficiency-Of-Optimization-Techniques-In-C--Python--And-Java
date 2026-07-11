@@ -75,14 +75,22 @@ The `execute_tests.sh` script automatically:
 3. Compares repeated executions of the same implementation.
 4. Compares standard and optimized versions based on return values.
 
+For each programming language (C, Python, and Java), the validation process generates three log files in the corresponding benchmark directory:
+
+* `info.txt`: contains general information about the execution process, including the executed benchmarks and validation progress.
+* `success.txt`: records the benchmarks and test cases that successfully complete all validation checks.
+* `error.txt`: records the benchmarks and test cases that fail due to incorrect results, non-deterministic behavior, or execution errors.
+
+These files provide a record of the validation process and allow failed benchmarks to be identified and analyzed.
+
 ### Summary of validation criteria
 
-| Aspect                                    | Description                                                     |
-| ----------------------------------------- | --------------------------------------------------------------- |
-| Output compared                           | Return value of the main computation function                   |
-| Standard vs optimized                     | Must produce identical return values for all test cases         |
-| Internal state (globals, arrays, objects) | Not considered for validation                                   |
-| Validity condition                        | All comparisons must pass exactly                               |
+| Aspect                                    | Description                                             |
+| ----------------------------------------- | ------------------------------------------------------- |
+| Output compared                           | Return value of the main computation function           |
+| Standard vs optimized                     | Must produce identical return values for all test cases |
+| Internal state (globals, arrays, objects) | Not considered for validation                           |
+| Validity condition                        | All comparisons must pass exactly                       |
 
 A benchmark is considered valid only if all checks succeed exactly.
 
